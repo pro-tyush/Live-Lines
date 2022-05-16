@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "1053712779826",
+    "project_id": "fir-auth-a97d1",
+    "storage_bucket": "fir-auth-a97d1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1053712779826:android:c52d10a0982a9011020a2b",
+        "android_client_info": {
+          "package_name": "com.example.livelinesalpha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1053712779826-0jrapm783jnk3g73vshvgqh85bcgaqr5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5hzY6JbVS4vdWiTtDbYcKfkvTKvedV2c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1053712779826-0jrapm783jnk3g73vshvgqh85bcgaqr5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1053712779826:android:e8326b2005d4a3c6020a2b",
+        "android_client_info": {
+          "package_name": "com.nipun.firebaseauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1053712779826-0jrapm783jnk3g73vshvgqh85bcgaqr5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5hzY6JbVS4vdWiTtDbYcKfkvTKvedV2c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1053712779826-0jrapm783jnk3g73vshvgqh85bcgaqr5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

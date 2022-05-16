@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.login.SignInActivity"
+    tools:ignore="Autofill, LabelFor"
+    android:background="@color/purple_500">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rsz_21logo" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/card_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="15dp"
+        android:scaleX="0.975"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/login_textview"
+                android:gravity="center"
+                style="@style/TextAppearance.MaterialComponents.Headline4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:text="Login"
+
+                android:textColor="@color/black" />
+        <androidx.appcompat.widget.AppCompatEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="E-mail"
+            android:id="@+id/etSignInEmail"/>
+        <androidx.appcompat.widget.AppCompatEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:id="@+id/etSignInPassword"/>
+         <androidx.appcompat.widget.AppCompatButton
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Sign In"
+             android:id="@+id/btnSignIn"
+             android:shadowRadius="5"
+             android:layout_marginHorizontal="10dp"
+             />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnCreateAccount2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:shadowRadius="5"
+                android:text="Create Account"
+                android:layout_marginHorizontal="10dp"/>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
